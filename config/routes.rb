@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'panel', to: "admin#index"
+  resources :uruns
   namespace :on_taraf do
     get 'ana_sayfa/index'
     get 'iletisim/index'
