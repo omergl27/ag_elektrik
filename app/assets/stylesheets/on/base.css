@@ -229,7 +229,6 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
 	font: 12px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #261b0d;
 	margin: 0;
-	width: 198px;
 	max-width: 100%;
 	display: block;
 	margin-bottom: 10px;
