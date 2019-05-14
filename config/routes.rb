@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
   namespace :on_taraf do
     get 'ana_sayfa/index'
+    get 'iletisim/index'
+    get 'urun_resimleri/index'
+    get 'hizmetlerimiz/index'
   end
   
   

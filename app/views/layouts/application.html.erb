@@ -10,7 +10,10 @@
   </head>
 
   <body>
-    <%= render partial: "layouts/shared/navbar"%>
+    <!--render partial: "layouts/shared/arka_taraf/navbar"-->
+    <%= render partial: "layouts/shared/on_taraf/header"%>
+    <%= render partial: "layouts/shared/on_taraf/banner"%>
     <%= yield %>
+    <%= render partial: "layouts/shared/on_taraf/footer"%>
   </body>
 </html>
